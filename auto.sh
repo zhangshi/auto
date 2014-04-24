@@ -11,7 +11,7 @@ else
 fi
 
 echo " 安卓开发环境自动配置脚本 "
-echo "作者：Ruling."
+echo "作者：Bruce."
 
 clear
 
@@ -156,7 +156,7 @@ echo
 if [ ! -d ~/bin ]; then
   mkdir -p ~/bin
 fi
-curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+curl http://git-repo.googlecode.com/files/repo-1.12 > ~/bin/repo
 chmod a+x ~/bin/repo
 
 echo
