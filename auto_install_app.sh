@@ -1,4 +1,5 @@
 sudo apt-get update
+sudo apt-get upgrade
 sudo apt-get install git-core
 sudo apt-get install gnupg
 sudo apt-get install flex
@@ -40,4 +41,4 @@ sudo apt-get install libncurses5-dev
 sudo apt-get install zlib1g-dev
 sudo apt-get install pngcrush
 sudo apt-get install schedtool
-sudo apt-get upgrade
+
